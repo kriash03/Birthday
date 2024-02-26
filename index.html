@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {color:#ffff;
+            align-self: center;
+            font-size: 50px;}
+    </style>
+</head>
+<body>
+    <p>TO MY MOST FAV PERSON EVER</p>
+    <div class= "gift-container">
+        <div class="shadow"></div>
+        <div class="gift-box">
+            <div class="click"></div>
+        </div>
+        <div class="text">
+            <h2>HAPPIEST BIRTHDAY MY LOVE</h2>
+            <h4>
+                May you get the best year ahead and hopefully i can stay with you to see you excel *muah* *muah*
+            </h4>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="./confetti.js"></script>
+    <script>
+        const start=() => {
+          setTimeout(function(){
+            confetti.start();
+            
+          },1000);
+        };
+        const stop=() => {
+          setTimeout(function(){
+            confetti.stop();
+          },5000);
+        };
+        start();
+        stop();
+      </script>
+</body>
+</html>
