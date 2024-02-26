@@ -11,4 +11,4 @@ after everything is done just restart the VSCode once again
 you will get button saying "go live" on bottom right corner 
 click it and i hope you like it.
 
-                                            <HAPPY BIRTHDAY ONCE AGAIN BABY>
+
